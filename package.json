@@ -1,0 +1,21 @@
+{
+  "name": "sf-copy-to-clipboard-flow",
+  "version": "1.0.0",
+  "description": "Salesforce LWC component for copying text to clipboard in Flow",
+  "scripts": {
+    "lint": "eslint **/{lwc,aura}/**",
+    "test": "npm run test:unit",
+    "test:unit": "sfdx-lwc-jest",
+    "test:unit:watch": "sfdx-lwc-jest --watch",
+    "test:unit:debug": "sfdx-lwc-jest --debug"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@salesforce/eslint-config-lwc": "^3.6.0",
+    "@salesforce/sfdx-lwc-jest": "^1.4.1",
+    "eslint": "^8.57.1"
+  },
+  "main": "index.js",
+  "keywords": []
+}
